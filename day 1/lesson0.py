@@ -17,7 +17,7 @@ end_fill()
 
 
 forward(70)   #drawing a door
-color("purple")
+color("skyblue")
 begin_fill()
 left(90)
 forward(120)
@@ -32,7 +32,7 @@ penup()
 goto(200,200)
 pendown()
 
-color("orange")
+color("skyblue") #painting a roof
 begin_fill()
 right(150)
 forward(200)
@@ -43,7 +43,7 @@ end_fill()
 color("pink")
 left(30)
 forward(50)
-color("purple") #painting a window
+color("skyblue") #painting a window
 begin_fill()
 left(90)
 forward(50)
