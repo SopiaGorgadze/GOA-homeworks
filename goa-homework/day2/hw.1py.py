@@ -1,0 +1,1 @@
+print("when i first decided to learn proggraming i didn't know what academy to apply to but then my mother suggested for me to apply to goa and thats how i got in, at first i was nervous but the people here are very friendly and helpfull")
