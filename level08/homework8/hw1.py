@@ -5,5 +5,5 @@ if user_num < 10:
     print("your number is less than 10")
 elif user_num == 10:
     print("your number is equal to 10")
-if user_num > 10:
+else:
     print("your number is greater than 10")
