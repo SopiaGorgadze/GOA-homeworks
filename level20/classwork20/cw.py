@@ -1,6 +1,6 @@
  
 
-goa_group50_students = ["gabrieli" "giorgi cxadadze", "mariami jalagonia","sopia gorgadze","beqa berashvili", "giorgi xucishvili", "giorgi janxoteli", "irakli somxishvili", "nani matiashvili",  "nika bagaturia", "saba bokuchava", "aleko gorjomeladze"] 
+goa_group50_students = ["gabrieli", "giorgi cxadadze", "mariami jalagonia","sopia gorgadze","beqa berashvili", "giorgi xucishvili", "giorgi janxoteli", "irakli somxishvili", "nani matiashvili",  "nika bagaturia", "saba bokuchava", "aleko gorjomeladze"] 
 
 print(goa_group50_students)
 
