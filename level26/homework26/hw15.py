@@ -4,7 +4,7 @@ my_list = ["sopia", "sopia", "lazare", "sopia", "tea", "tako"]
 t_names = []
 
 for elements in my_list:
-    if elements[0] == "t":
+    if elements[0] != "t":
         t_names.append(elements)
 
 

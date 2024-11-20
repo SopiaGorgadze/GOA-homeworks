@@ -25,10 +25,10 @@ print(my_list.count("nika"))
 
 
 
-# extend 
-# remove
-# pop
-# insert
-# count
-# len
-# append
+# extend - extends a list with another list
+# remove - removing the element
+# pop - removing with index
+# insert - inserting an element with index
+# count - counts the elements of the list
+# len - length 
+# append - inserting an element without an index (it's added in the last index)
