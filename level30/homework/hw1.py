@@ -6,8 +6,8 @@ def sum():
     num_sum = 0
 
     for i in range(len(num_list)):
-        num_sum += num_list[i]
-        return num_sum
+        num_sum += i
+    return num_sum
     
 
 print(sum())

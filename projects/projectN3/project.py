@@ -4,22 +4,23 @@ num1 = int(input("enter number: "))
 operation = input("enter mathematical operation: ")
 num2 = int(input("enter number: "))
 
-if operation == "+":
+num1 = input()
+operation = input()
+num2 = input()
+def addition():
     print(num1 + num2)
-elif operation == "-":
+def substraction():
     print(num1 - num2)
-elif operation == "*":
+def multy():
     print(num1 * num2)
+def division():
+    print(num1 / num2)
+
+if operation == "+":
+    print(addition())
+elif operation == "-":
+    print(substraction())
+elif operation == "*":
+    print(multy())
 elif operation == "/":
-    if num1 == 0:
-        print("this action is not supported")
-    elif num2 == 0:
-        print("this action is not supported")
-    else:
-        print(num1 / num2)
-elif operation == "//":
-    print(num1 // num2)
-elif operation == "%":
-    print(num1 % num2)
-else:
-    print("this action is not supported")
+    print(division())
