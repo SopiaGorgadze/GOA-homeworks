@@ -109,7 +109,7 @@ else:
         count = count + 1
     else:
         print("wrong!")
-    print(f'Your Finl results in the 7 you got correct {count}')
+    print(f' your correct answers were {count} out of 7')
 
 
 
