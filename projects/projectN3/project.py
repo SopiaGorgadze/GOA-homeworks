@@ -4,23 +4,27 @@ num1 = int(input("enter number: "))
 operation = input("enter mathematical operation: ")
 num2 = int(input("enter number: "))
 
-num1 = input()
-operation = input()
-num2 = input()
 def addition():
-    print(num1 + num2)
-def substraction():
-    print(num1 - num2)
-def multy():
-    print(num1 * num2)
+    return num1 + num2
+
+def subtraction():
+    return num1 - num2
+
+def multiplication():
+    return num1 * num2
+
 def division():
-    print(num1 / num2)
+    if num2 == 0:
+        return "Error"
+    return num1 / num2
 
 if operation == "+":
-    print(addition())
+    print (f"{addition()}")
 elif operation == "-":
-    print(substraction())
+    print(f"{subtraction()}")
 elif operation == "*":
-    print(multy())
+    print(f"{multiplication()}")
 elif operation == "/":
-    print(division())
+    print(f"{division()}")
+else:
+    print("Error")

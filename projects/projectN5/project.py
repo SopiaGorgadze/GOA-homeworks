@@ -13,9 +13,11 @@ def calculate_age(year_of_birth, current_year):
     elif ty == -1:
         ty = -ty
         return "You will be born in " + str(ty) + " year."
-    else:
+    elif ty < 0:
         ty = -ty
         return "You will be born in " + str(ty) + " years."
+    else:
+        return "error"
     
 print(calculate_age(year_of_birth, current_year))
             
