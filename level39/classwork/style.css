@@ -1,0 +1,30 @@
+p{
+ 
+    text-decoration: line-through blue;
+    width: 300px;
+    text-align: center;
+}
+
+.un{
+    font-size: 30px;
+ 
+    text-decoration: overline red;
+}
+.ov{
+    font-size: 30px;
+    text-decoration: line-through blue;
+    text-decoration: overline red;
+}
+.line{
+    font-size: 30px;
+    text-decoration: line-through blue;
+}
+
+
+.decor{
+    text-decoration:wavy underline blueviolet;
+    text-decoration:solid underline blueviolet;
+    text-decoration:dashed underline blueviolet;
+    text-decoration:dotted underline blueviolet;
+    text-decoration:double underline blueviolet;
+}

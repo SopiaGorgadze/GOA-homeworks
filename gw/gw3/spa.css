@@ -49,7 +49,7 @@ nav ul {
     display: flex;
     justify-content: center;
     padding: 30px;
-    list-style: none;
+    list-style: none; 
     font-style: italic;
     gap: 30px;
 
@@ -124,9 +124,9 @@ footer {
 
 p{
     width: 50%;
-    text-align: center;
+    text-align: center; 
 }
 
-.sofia-pingvini{
+.ucbat{   
     border-radius: 24px;
-}
+} 
