@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap');
+
+*{
+    background-color: black;
+    text-align: center;
+}
+
+
+.capitalize{
+    color: aqua;
+    text-transform: capitalize;
+    text-shadow: 10px 0px 20px cyan;
+}
+.uppercase{
+    color: aqua;
+    text-transform: uppercase;
+    text-shadow: 10px 0px 20px cyan;
+}
+.lowercase{
+    color: aqua;
+    text-transform: lowercase;
+    text-shadow: 10px 0px 20px cyan;
+}
+
+
+
+.goa{
+    font-family:cursive;
+    color:greenyellow;
+    font-size:60px;
+    text-shadow: 10px 0px 20px cyan;
+}
+
+
+
+.p7{
+    font-family: "Playwrite MX Guides", cursive; ;
+}

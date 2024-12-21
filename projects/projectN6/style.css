@@ -1,0 +1,152 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body{
+    background-color: rgb(18, 13, 13);
+}
+
+div{
+    color: rgb(158, 117, 14);
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+    img{
+        padding-left: 20px;
+        padding-bottom: 10px;
+        border-radius: 100px;
+    }
+    h2{
+        font-weight: lighter;
+        margin-top: 20px;
+    }
+}
+
+main{
+    border-radius: 24px;
+    width: 50%;
+    height: 600px;
+}
+
+.MIMI{  
+    border-radius: 24px;
+    width: 100%;
+}
+
+.main-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+
+    background-color: rgb(18, 13, 13);
+    color: rgb(158, 117, 14);
+    text-align: center;
+    p{
+        font-style: italic;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+}
+
+nav ul{
+    width: 100%;
+    background-color: rgb(18, 13, 13);
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    list-style: none;
+    font-style: italic;
+    gap: 30px;
+    
+    a{
+         
+        color:rgb(158, 117, 14);
+            text-decoration: none; 
+            padding: 10px 20px;  
+            transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #5151e1; 
+    }
+ 
+
+    padding-bottom: 20px;
+}
+
+footer{
+    border:rgb(158, 117, 14) solid 5px;
+    border-style: groove;
+    background-color: rgb(56, 56, 56);
+    color: rgb(252, 244, 222);
+    border-radius: 5px;
+
+}
+
+.contact, .email{
+    color: rgb(252, 244, 222);
+    text-decoration: none; 
+    padding: 10px 0px 10px 20px;  
+    width: 130px;
+}
+
+.email{
+    width: 100%;
+}
+
+.contact a, .instagram-container a{
+    color: rgb(252, 244, 222);
+    text-decoration: none; 
+    padding: 10px;  
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+a:hover{
+    color: #5151e1; 
+}
+
+.fff{
+    
+    background-color: rgb(56, 56, 56);
+    color: rgb(252, 244, 222);
+    border-radius: 5px;
+    
+}
+.fff img{
+    padding: 0;
+}
+
+.ig{
+    width: 70px;
+    height: 70px;
+}
+
+.instagram-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.instagram-container a{
+    width: 50px;
+    padding: 0;
+}
+
+.fb{
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+} 
