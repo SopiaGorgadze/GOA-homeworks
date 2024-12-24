@@ -4,4 +4,4 @@
 # GOA-homeworks
 
  
-![Image 2](https://github.com/user-attachments/assets/16dfc193-ba5b-4479-b027-8b404956b5ee)
+![Image 3](https://github.com/user-attachments/assets/fe390980-06ce-483b-9040-24e8c11a064d)
