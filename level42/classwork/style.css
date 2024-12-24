@@ -1,0 +1,106 @@
+/* styling links */
+
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+/* pseudo selectors
+hover - მაუსის მიტანა
+
+
+
+*/
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.onlydiv{
+    width:150px;
+    height:150px;
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+    border-radius: 20px;
+    border: 15px dotted black;
+    box-shadow: 20px -20px 10px rgb(243, 107, 107);
+}
+.onlydiv:hover{
+    background-color: blueviolet;
+    border-radius: 50%;
+    border: 15px dotted black;
+    box-shadow: -20px -20px 10px rgb(243, 107, 107);
+
+}
+
+
+/* active - მაუსის დაჭერა */
+
+.onlydiv:active{
+    background-color: blue;
+    border: 15px solid black;
+    box-shadow: 20px 20px 20px rgb(243, 107, 107);
+}
+
+
+
+/* 1) შექმენით ღილაკი რომელსაც თავდაპირევალად ექნება ბექგრაუნდის ფერი და ტექსტის ფერი, როდესაც მასზე მაუსს მივიტანთ შეიცვალოს ბექგრაუნდის ფერი, ტექსტის ფერი გაიზარდოს ზომაში(სიგანეში), ხოლო როდესაც მას დააჭერთ დაჭერის მომენტში შეიცვალოს ტექტის ზომა(გაიზარდოს) და გაიზარდოს სიმაღლე, ასევე თუ ბორდერებსაც დაუმატებთ თქვენი გემოვნებით კარგი იქ */
+
+
+button{
+    color: rgb(231, 98, 255);
+    background-color: rgb(101, 2, 89);
+    transition:0.5s;
+    box-shadow: 10px 20px 10px;
+}
+
+button:hover{
+    background-color: rgb(172, 13, 146);
+    color: rgb(4, 36, 36);
+    width: 40px;
+    box-shadow: 10px 20px 10px;
+    border-radius: 20px;
+
+}
+
+button:active{
+    box-shadow: 10px 20px 10px;
+    font-size: 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+
+/* link -  */
+
+a:link{
+    color:rgb(0, 140, 255);
+}
+
+a:visited{
+    color:green;
+}
+
+
+
+
+
+/* visited */
+
+
+
+/* border-collapse - აშორებს table-ს სივრცეს ხაზებზე */
+
+/* tr:nth-child(3){
+    color: pink;     
+
+    ვანიჭებთ იმ row-ს რიცხვს რომელსაც გვინდა რომ შეეცვალოს სტილი
+
+ tr:nth-child(even){
+    color: pink;     
+
+
+
+} */

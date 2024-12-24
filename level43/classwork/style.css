@@ -1,0 +1,50 @@
+/* 1) შექმენით იმდენი ლისტი რამდენი ლისტის ტიპიც გვაქვს(ყველა შესაძლო ვარიანტი) თითოეულ ლისტში იყოს სამი ლისტის ელემენტი, მიანიჭეთ თითოეულს განსხვავებული ლისტის ტიპი, და განსხვავებული პოზიციები, ბოლოში დაამატეთ ერთი ლისტი რომელსაც გადასცემთ ფოტოს */
+
+
+.ul1{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image:url(https://attic.sh/bawq888o5zuzl6miw0dky77dd7e8);
+}
+.ul2{
+    list-style-type:circle;
+    list-style-position: outside;
+    list-style-image:url(https://attic.sh/bawq888o5zuzl6miw0dky77dd7e8);
+}
+.ul3{
+    list-style-type:decimal;
+    list-style-position:inherit;
+    list-style-image:url(https://attic.sh/bawq888o5zuzl6miw0dky77dd7e8);
+}
+.ul4{
+    list-style-type:disc;
+    list-style-position: inside;
+    list-style-image:url(https://attic.sh/bawq888o5zuzl6miw0dky77dd7e8);
+}
+.ul5{
+    list-style-type:georgian;
+    list-style-position: inside;
+    list-style-image:url(https://attic.sh/bawq888o5zuzl6miw0dky77dd7e8);
+}
+.ul6{
+    list-style-type:square;
+    list-style-position: inside;
+    list-style-image:url(https://attic.sh/bawq888o5zuzl6miw0dky77dd7e8);
+}
+.ul7{
+    list-style-type:lower-alpha;
+    list-style-position: inside;
+    list-style-image:url(https://attic.sh/bawq888o5zuzl6miw0dky77dd7e8);
+}
+.ul8{
+    list-style-type:upper-alpha;
+    list-style-position: inside;
+    list-style-image:url(https://attic.sh/bawq888o5zuzl6miw0dky77dd7e8);
+}
+
+
+
+ol{
+    list-style-position: inside;
+    list-style-type: georgian;
+}

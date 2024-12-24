@@ -1,0 +1,24 @@
+input[type = "text"]{
+    border:none;
+    outline:dotted;
+    border-bottom: 1px dotted rgb(31, 31, 195);
+    border-radius: 15px;
+    
+    
+}
+
+input[type = "password"]{
+    border:none;
+    outline:none;
+    border-bottom: 1px dotted rgb(200, 125, 54);
+    border-radius: 5px;
+    
+}
+
+input[type = "email"]{
+    border:none;
+    outline:none;
+    border-bottom: 1px dotted rgb(82, 153, 167);
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+p{
+    color:red;
+}
+
+p b{
+    color:blue;
+}
+
+
+
+#goa{
+    color: blue;
+}
+
+#magaria{
+    color: hotpink;
+}
+
+.name{
+    color: hotpink;
+}
+
+
+
+body{
+    background-color: black;
+}
+
+
+.n{
+    font-size: larger;
+    color: beige;
+    background-color: hotpink;
+
+
+}
+
+#s{
+    font-size: larger;
+    color: beige;
+    background-color: pink;
+}
+
+#f{
+    font-size: larger;
+    color: beige;
+    background-color: rgb(132, 9, 30);
+}
