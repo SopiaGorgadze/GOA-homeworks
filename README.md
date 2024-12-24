@@ -1,6 +1,7 @@
-![Image 1](https://github.com/user-attachments/assets/9c9252d2-0d02-4cf7-9279-08e5143ddbb6)
+ 
 # GOA-homeworks
 # GOA-homeworks
 # GOA-homeworks
 
 
+![Image 1](https://github.com/user-attachments/assets/ae4cfc7f-b54f-48d3-b62e-a444e491ccf6)
