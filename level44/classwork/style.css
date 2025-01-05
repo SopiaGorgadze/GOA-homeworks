@@ -1,0 +1,74 @@
+body{
+    height:100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+main{
+    width:700px;
+    height:500px;
+    border: 10px solid black;
+
+}
+
+div{
+    width:150px;
+    height:150px;
+    background-color: beige;
+    border:5px solid red;
+}
+
+main{
+    display:flex;
+
+
+    /* flex-direction - gives elements direction */
+
+    
+    flex-direction:row;
+
+    /* x axis*/
+
+
+    /* justify-content: between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: start;
+
+
+    /* y axis */
+
+    align-items:start;
+    align-items: flex-end;
+
+    flex-wrap: wrap;
+
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    gap:20px
+    /* align-items: center; */ 
+
+
+
+    
+}
+/* 
+.item3, .item2, .item1{
+    flex-grow: 1;
+
+} */
+
+.item2{
+    flex-shrink: 0;
+    /* flex-basis: 700px; */
+    flex: row;
+/*    
+
+    flex: 1 5 0;
+    align-self:flex-end; */
+
+    order:1;
+}
+

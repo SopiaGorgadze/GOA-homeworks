@@ -1,0 +1,17 @@
+/* 3) მოცემული ფოტოს მიხედვით, გააკეთ რაც შეიძლება ზუსტი დიზაინი, გამოიყენეთ flex იმისათვის რომ მიაღწიოთ სასურველ შედეგს  */
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    width:600px;
+    gap:30px;
+}
+ 
+.child{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    border: 2px solid gray;
+}

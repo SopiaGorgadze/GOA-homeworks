@@ -1,0 +1,37 @@
+/* 1) შექმენით მშობელი div ბლოკი(ზომით 500x500-ზე), რომლის კლასიც იქნება .parent
+შემდეგ შექმენით 3 შვილი div ელემენტი კლასით .child(100x100).
+
+თქვენი დავალებაა, განალაგოთ შვილი div ელემენტები ვერტიკალურად, გადაიტანოთ ჰორიზონტალურად(x ღერძი) შუაში და ვერტიკალურად(y ღერძი) მშობელი ელემენტის ბოლოში
+
+
+
+2) კომენტარებთ ახსენით, თუ რას აკეთებს justify-content-ი და align-items-ი, ასევე ისაუბრეთ მათ დამოკიდებულებაზე flex-direction-თან
+  */
+
+
+.parent{
+    height: 500px;
+    width:500px;
+    border: 5px solid red;
+    background-color: aqua;
+    
+    /* "flex direction changes the direction of the elements. it has 4 main properties which are row, row-reverse, column, column-reverse." */
+
+    flex-direction: column-reverse;
+
+    /* display flex makes the elements flexible and easy to move arouns */
+
+    display: flex;
+
+    /* justify content moves element's position to X axis */
+    justify-content: flex-end;
+    /* justify content moves element's position to Yaxis */
+    align-items: center;
+}
+
+.child{
+    height:100px;
+    width:100px;
+    background-color: rgb(95, 95, 252);
+    border:5px solid black;
+}
