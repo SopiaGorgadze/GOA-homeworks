@@ -1,0 +1,15 @@
+/* 5) დაწერეთ სამივე property რომელიც დღეს ვისწავლეთ list-ების გასტილვისთვის  */
+
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: none;
+}
+
+/* 6) გაიხსენეთ ის property რომელიც აერთიანებდა იმ წინა სამ property-ს */
+
+
+.item2{
+    list-style: circle inside url(#); 
+}

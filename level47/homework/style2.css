@@ -1,0 +1,47 @@
+/* 4) შექმენით nav ბარი, სადაც გექნებათ 3 ლინკი(a tag). ჩვეულებრივ მდგომარეობაში მათ არ უნდა ჰქონდეთ ტექსტის დეკორაცია. როდესაც მომხარებელი შეეხება ლინკებს, მათი ფერი უნდა იყოს ყვითელი, დაწერტილებული შავი ხაზი უნდა ჰქონდეს გავლებული ტექსტის შუაში. როდესაც მომხარებელი დააჭერს ღილაკს(დაჭერის მდგომარეობა - active) იგივენაირად გასტილეთ, როგორც შეხებისას, უბრალოდ ტექსტის ფერი უნდა იყოს შავი, ხოლო დეკორაციის ყვითელი.
+
+კომენტარებით ახსენით, თუ რა არის მდგომარეობა, მოიყვანეთ მაგალითები */
+
+
+/*
+მდგომარეობაში ვერ გავიგე რას გულისხმობენ მაგრამ hover-ს როცა გავსტილავთ ტექსტის შეხების დროს ანუ კურსორის გადატარებისას სტილი ეცვლება, active-ზე კი როცა დავაკლიკებთ მაშინ
+
+
+*/
+
+
+
+
+body{
+    height: 100vh;
+    background-color: #141519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    
+    color: rgb(15, 152, 152);
+    text-decoration: none;
+    padding-right: 10px;
+    text-shadow: 10px 0px 20px currentColor;
+    transition: 0.3s;
+}
+
+a:hover{
+    padding: 50px;
+    color: yellowgreen;
+    text-shadow: 10px 0px 40px currentColor;
+    text-decoration: line-through;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+
+a:active{
+    padding: 50px;
+    color: rgb(247, 248, 245);
+    text-shadow: 10px 0px 40px currentColor;
+    text-decoration: line-through;
+    text-decoration-color: rgb(244, 2, 2);
+    cursor: pointer;
+}

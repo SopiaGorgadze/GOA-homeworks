@@ -1,0 +1,19 @@
+ /* 12) დაამატე input ელემენტს 10px border-radius. ასევე, შეუქმენე ჩრდილი (box-shadow), რომელიც იქნება 0 4px 8px rgba(0, 0, 0, 0.2).
+
+13)შექმენი input ელემენტი, რომელსაც აქვს 15px padding ყველა მხრიდან. უზრუნველყე, რომ ტექსტი იყოს მარცხნივ განლაგებული, მაგრამ placeholder ტექსტი იყოს ცენტრში  */
+body{
+    background-color: rgb(143, 134, 134);
+}
+
+input{
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+
+}
+ 
+input::placeholder{
+    text-align: center;
+    font-size: 10px;
+    color:black;
+}

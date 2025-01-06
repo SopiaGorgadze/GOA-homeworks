@@ -1,0 +1,20 @@
+/* 2) Google font საიტიდან დააიმპორტეთ თქვენი css-ის ფაილში სასურველი ტექსტის სტილი(font-family). შექმენით html-ის ფაილში რამოდენიმე პარაგრაფი და გაუწერეთ მათ დაიმპორტებული ტექსტის სტილი.
+
+თქვენი სიტყვებით ახსენით, რა არის import-ი
+
+3) შექმნილი პარაგრაფებს შეუცვალეთ სისქე(font-weight). კომენტარებით ისაუბრეთ font-weigth კუთვნილებაზე და მის პარამეტრებზე. */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", serif;
+
+
+    /* font weight is the thickness of the text  */
+    font-weight: 400;
+}
+
+
+/* with import we can use external contents for example this font, we can import icons. import gives us lots of oportunities to make our website pretty and more likeable */

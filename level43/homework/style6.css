@@ -1,0 +1,44 @@
+/* 8) შექმნით ორი input  სახელის და გვარის შესატანი ასევე ერთი button რომელიც თავიდან იქნება წითელი და ხელს რომ მიტან უნდა გახდეს მწვანე გაუწერეთ input -ს border- radius.  */
+
+
+.container{
+    padding:90px;
+    display: flex;
+    justify-content: center;
+}
+button{
+ 
+    color:rgb(255, 0, 0);
+    background-color: rgb(255, 117, 140);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    box-shadow: 10px 0px 20px;
+    transition: 0.5s;
+}
+
+
+button:hover{
+
+    background-color: rgb(128, 247, 223);
+    color: rgb(3, 83, 68);
+    border: 2px solid rgb(43, 226, 177);
+}
+
+button:active{
+    font-size: 60px;
+    background-color: rgb(88, 97, 228);
+    color: rgb(34, 0, 255);
+    border: 2px solid  rgb(34, 0, 255);
+}
+
+
+input[type = "text"]{
+    border:none;
+    outline:none;
+ 
+    border-radius: 15px;
+    box-shadow: 10px 0px 20px rgb(255, 0, 179);
+    font-size: 15px;
+    padding: 5px;
+    margin: 20px;
+}

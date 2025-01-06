@@ -1,0 +1,29 @@
+/* 4) შექმენით 3 პარაგრაფი და გასტილეთ ისინი შემდეგნაირად. პირველს ქვეშ უნდა ჰქონდეს ხაზი გასმული, მეორე პარაგრაფის ტექსტი უნდა იყოს გადახაზული(შუაში), მესამეს კი ტექსტის ზემოთ. შეუცვალეთ ტექსტის დეკორაციას ფერები და სტილი(dotted, dashed, solid) */
+/* 5) შექმენით 1 სათაური(h1) და 1 b-თეგი, გადაიტანეთ ისინი საიტის შუაში. (გამოიყენეთ text-align) დააკვირდით, რატომ არ იცვლის ადგილს b თეგი და რა უნდა გავაკეთოთ, რომ ეს გამოსწორდეს. ახსენით რატომ ხდება ეს(კომენტარებით) */
+
+
+.first{ 
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: hotpink;
+}
+.second{
+    text-decoration: line-through;
+    text-decoration-style: dashed;
+    text-decoration-color: hotpink;
+}
+.third{
+    text-decoration: overline;
+    text-decoration-style: solid;
+    text-decoration-color: hotpink;
+}
+
+h1{
+    text-align: center;
+}
+b{
+    /* this property is not working because b tag is inline. inline elements can not be centered with text-align property */
+    text-align: center;
+    /* with this property we can turn inline text into block elements */
+    display: block;
+}
