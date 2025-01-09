@@ -1,0 +1,38 @@
+/* 1) გაუცვალეთ პირველსა და მეორე div ბლოკს ადგილები, გამოიყენეთ order კუთვნილება */
+/* 2) ჩამოიტანეთ მწვანე დივ ბლოკი ცენტრში align-self ის გამოყენებით */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+main {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    border: 5px solid black;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.yellow{
+    order: -1;
+}
+
+.green{
+    align-self: center;
+}
