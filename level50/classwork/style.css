@@ -1,0 +1,48 @@
+/* 1) შექმენით 1 ლინკი, რომელიც თავიდან იქნება წითელი და არ ექნება ტექსტის დეკორაცია. შეხებისას მისი ფერი უნდა შეიცვალოს მწვანეთი და ტექსტის დეკორაცია უნდა ჰქონდეს ქვედა ხაზი და შავი */
+
+/* 2) გამოიყენეთ ოთხივე მდგომარეობა(link, visited, hover, active) და განსხვავებულად გასტილეთ ლინკები სხვა და სხვა მდგომარეობაში */
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+a{
+    color:red;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+
+}
+a:hover{
+    color:rgb(17, 254, 9);
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 30px;
+}
+
+a:active{
+    color:red;
+    font-size: 30px;
+
+}
+a:visited{
+    background-color: aquamarine;
+    font-size: larger;
+    color: azure;
+}
+a:link{
+    background-color: rgb(243, 10, 188);
+    font-size: larger;
+    color: rgb(216, 250, 250);
+}

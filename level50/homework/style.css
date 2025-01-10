@@ -1,0 +1,34 @@
+/* 2) შექმენით ლინკი რომელსაც მიაბავთ იუთუბის ვიდეოს (თქენს საყვარელ მუსიკას) ლინკზე დაკლიკების პროცესში, ლინკი უნდა გახდეს წითელი, ხოლო მაუსის მიტანაზე უნდა გახდეს ლურჯი + გაიზარდოს ტექსტის ზომა და background ფერი გახდეს წითელი */
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+a{
+    color:blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+
+}
+a:active{
+    color:red;
+    font-size: 30px;
+
+}
+a:hover{
+    color:rgb(92, 92, 246);
+    font-size: 30px;
+    background-color: red;
+}
