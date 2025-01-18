@@ -1,0 +1,45 @@
+/* <!-- 1) შექმენით ცხრილი, სადაც გექნებათ 6 რიგი, თითოეულ რიგში უნდა გქონდეთ მინიმუმ სამი td(ცხრილის მონაცემი). -->
+<!-- თქვენი დავალებაა, ლუწ ნომრებზე მყოფ რიგებს მიანიჭოთ უკანა ფონი ყვითელი, ხოლო კენტ ნომრებზე მყოფებს მწვანე --> */
+
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    height: 200px;
+    width:60%;
+    border-collapse: collapse;
+    border-radius: 5px; 
+    overflow: hidden;
+}
+th{
+    border: 1px solid black;
+}
+
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: yellow;
+}
+
+tr:nth-child(odd){
+    background-color: cornflowerblue;
+
+}
+
+

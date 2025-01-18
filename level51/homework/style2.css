@@ -1,0 +1,34 @@
+/* 4) */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     
+    
+}
+
+table{
+    border-collapse: collapse;
+    border:1px solid black;
+}
+tr td{
+    padding: 15px;
+    border:1px dashed black;
+}
+tr th{
+    padding: 20px;
+    border:1px solid black;
+    border-bottom: 1px dashed black;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(167,205,205);
+}
