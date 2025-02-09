@@ -3,7 +3,7 @@ from turtle import *
 
 width(5)
 color("grey")
-speed(20)
+speed(6)
 
 # making the walls
 backward(300)

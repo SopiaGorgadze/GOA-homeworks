@@ -2,7 +2,7 @@ from turtle import*
 
 width(5)
 color("grey")
-speed(15)
+speed(6)
 
 
 #drawing the castle walls
