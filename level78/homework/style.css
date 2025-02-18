@@ -1,0 +1,174 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(202, 227, 230);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    height:400px;
+    width:800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.green{
+    width: 45%;
+    height: 80%;
+    gap: 10%;
+    margin-right: 20px;
+    background-color: rgb(27, 70, 74);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+section{
+    height: 100%;
+    width: 530px;
+    padding: 40px;
+}
+
+
+
+.card{
+    display: flex;
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(244, 248, 251);
+    color: rgb(61, 127, 133);
+    margin-bottom: 10px;
+}
+p{
+    color: rgb(61, 127, 133);
+}
+
+.txt{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows:50% 50% ;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.h2-div{
+    margin-bottom: 10px;
+    color: rgb(61, 127, 133);
+}
+
+.txt .custom1{
+    border: 1px solid black;
+    background-color: rgb(27, 70, 74);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.custom{
+    background-color:rgb(244, 248, 251);
+    color: rgb(27, 70, 74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+
+.numppl{
+    margin-top: 20%;
+}
+
+.card1{
+    display: flex;
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(244, 248, 251);
+}
+
+
+.tip{
+    width: 80%;
+    height: 20%;
+    
+    display: flex;
+    justify-content: space-between;
+    color: rgb(96, 189, 174);
+    padding:5%;
+}
+
+
+
+.lala{
+    width: 80%;
+    height: 20%;
+    padding:5%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(96, 189, 174);
+}
+
+
+.button{
+    margin-top: 15%;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(47, 102, 108);
+    border: none;
+    font-size: 16px;
+    color: rgb(27, 70, 74);
+}
+
+
+@media screen and (max-width: 800px){
+
+    main{
+        flex-direction: column;
+        width: 80%;
+        border-radius: 0;
+        
+    }
+    .green{
+        width: 100%;
+        height: auto;
+        width: 100%;
+        border-radius: 0;
+        margin-left: 20px;
+    }
+
+    .button{
+        margin-bottom: 50px;
+    }
+    
+}

@@ -1,0 +1,89 @@
+/* 3) შექმენით div ბლოკი 200x200-ზე, შეხებისას მისი ზომა უნდა გაიზარდოს 50%, დატრიალდეს საათის ისრის მიმართულებით 360 გრადუსით და შეეცვალოს ფერი. ეს უნდა მოხდეს 1 წამის განმავლობაში */
+
+/* 4) ივარჯიშეთ ანიმაციებზე და თქვენი კრეატიულობით შექმენით კიდევ 3 ანიმაცია */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+main{
+    height: 200px;
+    width: 200px;
+    
+}
+.divdiv{
+    border: 3px solid cornflowerblue;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(119, 53, 64);
+    transition:1s;
+    box-shadow: -10px 0px 20px hotpink;
+    border-radius: 50%;
+}
+
+.divdiv:hover{
+    height: 150%;
+    width: 150%;
+
+    transform: scale(1) rotate(-360deg);
+
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+
+    transition: 1s;
+   
+    animation:animation1 2s infinite;
+    
+}
+
+img{
+    box-shadow: 20px 0px 20px rgb(222, 33, 64);
+}
+
+@keyframes animation1 {
+    0%{
+        transform: rotate(10deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+
+.div3{
+ 
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   
+    transition: 0.2s;
+}
+ 
+
+.div3:hover{
+    transform: translate(150px, 120px);
+    transform: skew(20deg, 10deg);
+    box-shadow: 10px 0px 10px pink;
+    background: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 0));
+}
+

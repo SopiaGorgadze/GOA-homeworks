@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+section img{
+    height: 100px;
+}
+
+.load{
+    height: 5px;
+    width: 200px;
+    background-color: grey;
+}
+
+.white{
+    height: 100%;
+    background-color: white;
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes loading{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 100%
+    }
+    100%{
+        width:0;
+    }
+}

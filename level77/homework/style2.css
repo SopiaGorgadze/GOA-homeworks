@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #171a1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.parent {
+    width: 1200px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.child {
+    width: 100%;
+    height: 100%;
+
+     
+    border: none;
+    animation-name: toggle;  
+    animation-duration: 1s;  
+    animation-delay: 1s;  
+    animation-iteration-count: infinite; 
+    
+    animation: toggle 5s 1s infinite;
+   
+}
+
+@keyframes toggle {
+    from {
+        width: 0%;
+        background-color: red;
+    }
+    33% {
+        background-color: blue;
+    }
+    50% {
+        background-color: yellow;
+    }
+    80% {
+        background-color: aqua;
+    }
+    to {
+        width: 100%;
+        background-color: green;
+    }
+}

@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#parent{
+    border: 1px solid black;
+    width: 1000px;
+    height: 50px;
+}
+#child{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(43, 226, 183);
+    animation-name:  gasgasgas;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    
+
+
+}
+@keyframes gasgasgas{
+    0%{
+        width: 0%;
+        background-color: rgb(241, 102, 102);
+    }
+    30%{
+        background-color: rgb(255, 179, 0);
+
+    }
+    50%{
+        background-color: aquamarine;
+
+    }
+    70%{
+        background-color: brown;
+    }
+    100%{
+        width: 100%;
+        background-color: rgb(141, 113, 168);
+    }
+}
+
+#child:hover b{
+    font-size: 30px;
+
+}
+b{
+    margin-top: 20px;
+}
