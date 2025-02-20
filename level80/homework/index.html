@@ -1,0 +1,53 @@
+<!-- 1) კომენტარებით ახსენით რა არის let და const keyword-ები, რა შემთხვევაში უნდა გამოვიყენოთ თითოეული მათგანი -->
+
+
+<!-- const and let are both used to create variables but the difference  between them is that we can change let but cant change const -->
+
+<!-- 2) კომენტარებით ახსენით რატომ გამოიტანს ეს error-ს:
+let num = 5;
+let num = 10; -->
+<!-- the name of the variables are same -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let score = 19;
+
+        if(score <= 60){
+            console.log("F")
+        }else if(60<score<=69){
+            console.log("C")
+        }else if(70<=score<=79){
+            console.log("D")
+        }else if(80<=score<=89){
+            console.log("B")
+        }else if(90 <= score <= 100 ){
+            console.log("A")
+        }
+
+
+        // 4) გააკეთეთ შედარების ოპერატორებზე 5-5 მაგალითი
+
+        console.log(7 < 9 && 18 > 5)
+        console.log(5 < 9 && 1 > 5)
+        console.log(2 < 4 && 8 > 3)
+        console.log(5 < 9 && 1 > 5)
+        console.log(2 < 4 && 8 > 3)
+
+
+        console.log(5 < 9 || 1 > 5)
+        console.log(2 < 4 || 8 > 3)
+        console.log(5 < 9 || 1 > 5)
+        console.log(2 < 4 || 8 > 3)
+        console.log(2 < 4 || 8 > 3)
+        
+         
+    </script>
+</body>
+</html>

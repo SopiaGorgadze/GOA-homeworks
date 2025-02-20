@@ -1,0 +1,65 @@
+<!-- 2) კომენტარებით ახსენით, რა არის ობიექტი, კუთვნილება და მეთოდი. -->
+
+<!-- everything is an object, property is the characteristics of an object, method is the fuctions that we write with dot notations-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <!-- 3) შექმენით თქვენი თავის ობიექტი შემდეგი კუთვნილებებით: name, surname, age(შეგიძლიათ თქვენც მოიფიქროთ). იგვიე გზით შექმენით თქვენი რომელიმე ოჯახის წევრის ობიექტი.
+        თქვენი დავალებაა:
+        1. დაბეჭდოთ ეს ობიექტები
+        2. დაბეჭდოთ მათი თიოეული კუთვნილება
+        3. შეუცვალეთ 2 ობიექტს რომელიმე კუთვნილება და დაბეჭდეთ
+        4. დაუმატეთ ახალი კუთვნილებები ორივეს და დაბეჭდეთ
+        5. წაშალეთ ამ ობიე -->
+    <script>
+          let me = {
+            name: "sopia",
+            surname:"gorgadze",
+            age: 16,
+        };
+        let friend = {
+            name: "nika",
+            surname:"ar vici",
+            age: 16
+        };
+
+        me.name = "gasgas";
+        friend.age = 1;
+
+        me.gasgas = "gasgas";
+
+        delete friend.name;
+
+        console.log(me)
+        console.log(me.name)
+        console.log(me.surname)
+        console.log(me.age)
+
+        console.log(friend)
+        console.log(friend.name)
+        console.log(friend.surname)
+        console.log(friend.age)
+
+
+        // ### Bonus ###
+        // დაამატეთ ამ ობიექტებს ერთი მეთოდი, რომელიც კონსოლში გამოიტანს "Hello World!"-ს. გამოიძახეთ ეს მეთოდი
+
+        let gasgas = {
+            basbas: function(){
+                console.log("hello world")
+            }
+        };
+
+        gasgas.basbas()
+    </script>
+</body>
+</html>
