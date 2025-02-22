@@ -1,0 +1,58 @@
+<!-- 
+ number - რიცხვი
+ boolean - True & False
+ Object - ობიექტი
+ Array - მასივი
+-->
+
+
+<!-- პრიმიტიული და რთული მონაცემთა ტიპები -->
+
+
+<!-- პრიმიტიული მონაცემთა ტიპები -> 5, 5.6, -3.2
+-->
+
+<!-- რთული მონაცემთა ტიპები - > object, array,  -->
+
+
+<!-- პრიმიტიულსა და რთულს შორის განსხვავებაა ის რომ პრიმიტიულის ზომა განსაზღვრულია და რთულის არა -->
+
+
+<!-- პრიმიტიული ინახება stack მეხსიერებაში -->
+<!-- რთული ინახება heap მეხსიერებაში -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const me = {
+        //     greet: function(){
+        //         console.log("hello world")
+        //     }
+        // }
+
+        // me.greet()
+
+        // function greet(name){
+        //     console.log("hello world" + name)
+        // }
+
+        const input = parseInt(prompt("please enter num"))
+
+
+
+        const guess = Math.floor((Math.random() * input) + 1)
+        if(guess == input){
+            console.log("well done, you guessed it")
+        }else{
+            console.log("you missed")
+        }
+    </script>
+</body>
+</html>
