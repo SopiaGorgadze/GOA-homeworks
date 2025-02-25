@@ -1,2 +1,43 @@
 <!-- in progress -->
+<!-- 1) კომენტარებით ახსენით რა არის ჩაშენებული ობიექტები JavaScript-ში. დაწერეთ ყველა ჩაშენებული ობიექტი რაც იცით. -->
+
+<!--2) კომენტარებით ახსენით რა არის stack-ი და heap-ი, რა განსხვავებაა მათ შორის, განიხილეთ მათი პლიუსები და მინუსები-->
+
+<!-- პრიმიტიული ინახება stack მეხსიერებაში stack is limited in memory bcs primitive data types has their expected memory. so stack memory is very fast and tidy-->
+
+
+<!-- რთული ინახება heap მეხსიერებაში -->
+ <!-- heap is not limited in memory therefore it contains objexts and arrays.  but its not as tidy as stack therefore its not as fast -->
  
+
+
+<!--3) მომხარებელს შემოატანინეთ prompt-ის დახმარებით სახელი, გვარი, ასაკი და შექმენით მათი მეშვეობით ობიექტი. დაბეჭდეთ ეს ობიექტი, შეუცვალეთ სახელის კუთვნილება და ხელახლა დაბეჭდეთ ეს ობიექტი. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const momxmarebeli= {
+            name: prompt("enter your name: "),
+            lastname: prompt("enter your lastame: "),
+            age: prompt("enter your age: "),
+        };
+
+        console.log(momxmarebeli.name)
+        console.log(momxmarebeli.lastname)
+        console.log(momxmarebeli.age)
+        console.log(momxmarebeli)
+
+        momxmarebeli.name = "levani"
+        console.log(momxmarebeli.name)
+
+
+    </script>
+</body>
+</html>
